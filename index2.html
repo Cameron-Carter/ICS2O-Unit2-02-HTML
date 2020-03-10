@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Hello, World Webpage">
+    <meta name="keywords" content="java, buttons">
+    <meta name="author" content="Cameron Carter">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, World!</title>
+  </head>
+  <style>
+    .myclass {
+      color:purple;
+      font-family:impact;
+      font-size:400%;
+    }
+  </style>
+  <script>
+    // finding the div to change text style
+    function newStyle() {
+      document.getElementById("div1").className="myclass";
+      }
+  </script>
+  <body>
+    <h1>Another Website That Changes</h1>
+    <button id="mybutton"; onclick="newStyle();">Change the Text Style!</button>
+    <div id="div1">
+      <p>This text will become purple, with a new font and size!</p>
+    </div>
+  </body>
+</html>
